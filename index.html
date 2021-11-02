@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protect The World</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Odibee+Sans&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <!-- Tab icon link -->
+    <link rel="icon" href="images/emoji.png">
+</head>
+<body>
+    
+    <div id="start-screen">
+        <img src="./images/keyboard.png" alt="arrow-keys">
+        <div class="instructions">
+            <h2>Protect The World!</h2>
+            <p>Use the arrow keys to avoid the virus and catch the items</p>
+        </div>
+    </div>
+    
+    <button id="start-btn">START GAME</button>
+
+    <div id="scores">
+        <div class="levels">
+        <h1>Save the world !</h1>
+        <h2>Score: <span id="points">0</span></h2>
+        <h2>Level: <span id="level">1</span></h2>
+
+        <button id="level-2">GO!</button>
+        <button id="level-3">GO!</button>
+        </div>
+    
+    <canvas id="my-canvas" width="500" height="700"></canvas>
+    </div>
+
+    
+    <div id="gameover-screen">
+        <h1><img src="./images/emoji.png" alt="face-masked"> Too Bad...</h1>
+        <h2>We are now in a global pandemic !</h2>
+    </div>
+  
+
+<script src="scr/game.js"></script>  
+<script src="scr/world.js"></script>  
+<script src="scr/main.js"></script>  
+<script src="scr/mask.js"></script>  
+<script src="scr/vaccine.js"></script>  
+<script src="scr/virus.js"></script>  
+</body>
+</html>
